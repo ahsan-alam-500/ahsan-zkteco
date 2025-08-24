@@ -5,7 +5,8 @@
         "ZKTeco",
         "Fingerprint",
         "TimeAttendance",
-        "Laravel"
+        "Laravel",
+        "AUtomation"
     ],
     "homepage": "https://github.com/ahsan-alam-500/laravel-zkteco",
     "license": "MIT",
