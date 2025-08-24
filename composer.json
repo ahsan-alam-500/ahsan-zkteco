@@ -7,12 +7,12 @@
         "TimeAttendance",
         "Laravel"
     ],
-    "homepage": "https://github.com/mehedijaman/laravel-zkteco",
+    "homepage": "https://github.com/ahsan-alam-500/laravel-zkteco",
     "license": "MIT",
     "authors": [
         {
             "name": "Ahsan",
-            "email": "ahsan@gmail.com",
+            "email": "ahsanulalam.500@gmail.com",
             "role": "Developer"
         }
     ],
@@ -36,14 +36,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Ahsan\AhsanZkteco\": "src/",
-            "Ahsan\AhsanZkteco\Database\Factories\": "database/factories/"
+            "Ahsan\\AhsanZkteco\\": "src/",
+            "Ahsan\\AhsanZkteco\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ahsan\AhsanZkteco\Tests\": "tests/",
-            "Workbench\App\": "workbench/app/"
+            "Ahsan\\AhsanZkteco\\Tests\\": "tests/",
+            "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
@@ -55,7 +55,7 @@
             "@php vendor/bin/testbench workbench:build --ansi"
         ],
         "start": [
-            "Composer\Config::disableProcessTimeout",
+            "Composer\\Config::disableProcessTimeout",
             "@composer run build",
             "@php vendor/bin/testbench serve"
         ],
@@ -74,10 +74,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ahsan\AhsanZkteco\AhsanZktecoServiceProvider"
+                "Ahsan\\AhsanZkteco\\AhsanZktecoServiceProvider"
             ],
             "aliases": {
-                "AhsanZkteco": "Ahsan\AhsanZkteco\Facades\AhsanZkteco"
+                "AhsanZkteco": "Ahsan\\AhsanZkteco\\Facades\\AhsanZkteco"
             }
         }
     },
